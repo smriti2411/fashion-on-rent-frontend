@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import "./index.css"
 import "./style.css"
 import image from "./Image/b.PNG"
 import logo from "./Image/logo.PNG"
@@ -20,9 +19,7 @@ const Login = () => {
   const handleSubmit = (e) =>{
     e.preventDefault();
     const newRec = { ...values , id:new Date().getTime().toString()}
-    console.log(record);
     setRecord([...record,newRec])
-    console.log(record);
   }
   return (
 <>
@@ -45,7 +42,7 @@ const Login = () => {
                 <label htmlFor="email-address" className="sr-only">
                     Email
                 </label>
-                <img src="https://s3-alpha-sig.figma.com/img/1c76/0f4c/ff78e00997fa01e06a4a7fdbba86cbc8?Expires=1633910400&Signature=EMekby7rxKLw9~y57i4zV9kOKzRUU5yLUJlbtTPc4Qmd6BKWXWSeE2cIeAuGF3CfHfk-C37mtOuK3kOCww3ErculqXj7ahYcjykS4gVyY~JtTNzfo36gBwJgYINbhG6pTyPIAgLMmV4DGQEgtsYmijpt5MtBwRJvcSRRmK17a6DgicDlhC5T1GkdUYZunO8LbUlPXJ888FCegKSzrPLuWGucPtgKWBn71kuzFbxjVNb1C7bXMsgNKTfkD4GvSehbJrwwhuZoyqhAJx7eXuj2-ehCY5f66O1GpMzpUJHY2rrYkwyN5u0lYq2fng~tC9Ng4LRTB-j7iiTX4uYKaidiaA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                <img src="https://s3-alpha-sig.figma.com/img/1c76/0f4c/ff78e00997fa01e06a4a7fdbba86cbc8?Expires=1635724800&Signature=SDPCCyfkFsLBKcEJXF9XXJXnYG5agKUjMv1J5OVC53kSzKJeABRWvK-UDh4qubdrus0PDjRdef4QkvHUXF45Hkt1UkzRWnyeqJHWAhdKEiBybK5YZqGt5S4x5bxAE4JTFmlA4zNkEBgSbEaHwZJE8S59F~Ryl7hymwaJ993ustsNkHOPHxViHFY5DLg4t3dwTD50upAL0A0-FiWtEw-8Y4-BIj~xJYA-C~Q~3xjs2bhwm5Vqqky~RLbYtwrgPGsouRpkgJ-NJrWUUxNZJR0S~8dqc-TwN9AxzsI-AGTPtS0d7EwqMd1hmElPdplEqEz7ERKuzEEold1SOnLPA5XSfw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
                     alt="" className='log ml-4 fill-current text-gray-500 text-xs z-10 h-4 opacity-60 '/>
                 <input  id="email-address"
                         name="email"
@@ -63,7 +60,7 @@ const Login = () => {
             <div className="mt-7 space-y-4">
               <div className="w-3/5 mx-auto">
                 <div className="flex items-center">
-                  <img src="https://s3-alpha-sig.figma.com/img/a900/5091/9948fcf7aa3aa2f8bfe6410181f01a4f?Expires=1633910400&Signature=X5whOdqpAeM8l3NMtQSK32Psh~sE9KGW6r~UxliEi37U5mP32w~SXM5mBBOH32MrHndfh8NDYLiVzhPj01kvzSzw-Du0spgCSr9i11FFpPLAnBty2TPNfzWxTc6QvL7tTo6erI1zq55Y3YPTXjuwIIj0dfwoE3yACIt34Fs52iD~9kCOUCFqPeIDhPZQquaKrJCKe-ZyF9~7tNYkz-FfVryfVpCOWOhs9GftJBUgx0jWvPALpn2TzaDDRwfc3BlBVrCloc8dasZfZiXRIiz9tTJoS3gC5VAzBJjxsARKefSL-EcsRhb0sQgIIOyusmtSzmmuwBLQd0GJSy4jKYWdyg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                  <img src="https://s3-alpha-sig.figma.com/img/a900/5091/9948fcf7aa3aa2f8bfe6410181f01a4f?Expires=1635724800&Signature=btMijsq-VnhtHsR6nTy0W4Gct2NFx9J6QyDclRW6Z7gXeZCdksTp-qY2D4VQEKuuP0G6IFSfbQcAJJRCmGOUwg53HuG7ZakhPJlDMASEOWdO~hrefGzveY~5aAii23FntbX4GBtMIBmm~gBnqJj1KR4FE2aDj6yTh2GdjEiOmId6Cwuq7-HZixf~LUs7yEZfdMbjpSxdK~iZ~FlArhYfIsl9nirBPS2bfCzYWwPGtxb~xDltLLxnXYLitEh2x3m0iy4XZEXyuE5K7WwsLFj6PG5~no4KgKfiW~zrgs-xTDwLj8aFUK~S7pAkbF5Rnxv9y6bnUMslG1VITgALF50Jiw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
                       alt="" className='log ml-4 fill-current text-gray-500 text-xs z-10 h-4 opacity-60 '/>
                   <label htmlFor="password" className="sr-only">
                     Password
@@ -93,7 +90,7 @@ const Login = () => {
           <div>
             <button
               type="submit"
-              className="bg-red-light hover:bg-red-bg m-auto group relative flex justify-center py-1.5 px-14 border border-transparent text-sm font-normal rounded-2xl text-black focus:outline-none focus:ring-2 focus:ring-offset-2">
+              className="bg-red-light hover:bg-red-bg m-auto group relative flex justify-center py-1.5 px-14 border border-transparent text-sm font-normal rounded-2xl text-black focus:outline-none ">
               Login
             </button>
           </div>
@@ -105,7 +102,7 @@ const Login = () => {
         </form> 
         <div className="w-3/5  mx-24 mt-5 google">
                   <div className="flex">
-                    <img src="https://s3-alpha-sig.figma.com/img/1ea2/e220/39c5118f1714336fda778b1d9ff4b439?Expires=1633910400&Signature=MKRx3VnqJ8E6xkna7Ok7pBBu4Yl2EV2VwhGVYLs1tw2UtA-15k91NwE9s~Pg9LBkjdVp2CRX7EyAw01wIdkGu6JnkYot6Kx7sPlEJjH0ERGdP-qkvoyW~AQiSUbcapwSJVc5PNluxTg0E5m~nle9r2GoMVujcbU83S0ldrclIS06xKl2sKOGA6vrmTFLd6HGwAtkmCFgqQivTyIZ2yp~-wJuMC2VidqeqPnOzDnTHtRDXEChB0OV20dH-G5z8AUJgd9ecl~6FY1rxnfY5uWS33AHWgAj5DBrxuVoTO5jz1GJRtFhv6Q9Yfu3stjWgo-dqSUKdJ6GJr4e-kvR6Y8vew__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                    <img src="https://s3-alpha-sig.figma.com/img/1ea2/e220/39c5118f1714336fda778b1d9ff4b439?Expires=1635724800&Signature=f7BurWBlWrw~u~-HyCpvB9fww~2vRkyd2bnKs0tjT~qhy8pFv0lbIsJufD3xpQ9efmmtScZqQAwv7B7DrHi4MGTA68yBuo4u5wb5gkqnXJ5gg2kuvXEHurLRdhdg7RA2gJTUc7Lb84~ebPNIOQIfVKwhpVGvcAjbfCf5EJwl6RtG7JAq~m~YWk4v8KDbijjj~mznexypv4yRx2J7kzkcGLLTHYVq3cn4iFaSt9nmeS4iFUfaPhCa6XXYKih9Yh4wCqK9pTA8Xg3wQxLyO6vQ013mf2j9ZA2GARqlvvufsYn87TUG7vtdf5lYCOKuC4LvBBET35U1putMLy~iLYp~1w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
                     alt="" className='fill-current text-gray-500 text-xs z-10 h-7  rounded-2xl'/>
                     <a href="https://accounts.google.com/ServiceLogin/signinchooser?passive=1209600&continue=https%3A%2F%2Faccounts.google.com%2Fb%2F0%2FAddMailService&followup=https%3A%2F%2Faccounts.google.com%2Fb%2F0%2FAddMailService&flowName=GlifWebSignIn&flowEntry=ServiceLogin"> 
                         <input  id="submit"
@@ -120,7 +117,8 @@ const Login = () => {
         <div className="pt-3 text-center my-7 footer"> 
           <span className="text-gray-600 text-xs w-2/3">New Customer?
           </span>
-          <NavLink  className="text-red-dark text-xs" >Create a Account</NavLink>
+          
+          <button className="text-red-dark text-xs" >Create a Account</button>
         </div> 
       </div>
     </div>
