@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 785px) {
+  .image{
+    display:none;
+  }
+  .box{
+    border-radius: 1rem;
+    margin: auto;
+  }
+}
