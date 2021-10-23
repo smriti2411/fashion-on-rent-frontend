@@ -1,49 +1,35 @@
-<p align="left">
-	<img width="300" src="https://drive.google.com/uc?export=view&id=1XfLhaaUsef3sD7c46TC_ZoaorKg-uBFM" />
-	<h2 align="left"> < ADD PROJECT TITLE > </h2>
-	<h4 align="left"> < ADD PROJECT DESCRIPTION > <h4>
-</p>
+Fashion On Rent 
 
----
-[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=for-the-badge&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
-  [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=for-the-badge&logo=appveyor)](INSERT_UI_LINK_HERE)
+A website through which users would easily be able to get some expensive clothes and jewellery on rent on basis of their needs. Our website will be showcasing a variety of party wear clothes and jewellery that users generally require for a only a limited amount of time but are expensive so they avoid purchasing them and look for the shops that rent these items. 
 
+It will also be showing the trending items that are usually in demand and users can also search easily on the basis of their needs or according their location.
 
-## Functionalities
-- [ ]  < ADD FUNCTIONALITY >
-- [ ]  < ADD FUNCTIONALITY >
+This website includes a mix of the following:
 
-<br>
+1.The details about the products.
+2.The address and the contact details of the Lender.
+3.Chat with the seller for more infor
+4.Availabilty calendar for the dates available for renting.
+5.Claim Request can be sent in case of item available.
+6.Notify me option available in case of unavailability.
+7.Style tip for the clothes that would look more attractive.
+8.Showing the similar items that can be bought together
+9.Displaying the items that are in current demand
 
+REQUIREMENT:-
 
-## Instructions to run
+Frontend - REACT.JS, TAILWIND CSS
 
-* Pre-requisites:
-	-  < add pre-requisite >
-	-  < add pre-requisite >
+How to install on your local machine:
 
-* Directions to setup/install
-```bash
-< insert code >
-```
+1. Intall Node.js
+2. Run the command 'npm i' in the project folder
+3. Use 'npm start' to start the project
 
-* Directions to execute
+How to contribute?
 
-```bash
-< insert code >
-```
+1.Comment on the issue on which you want work, also mention the changes/additions you are willing to make.
 
-<br>
+2.Wait for the issue to be assigned to you.
 
-## Contributors
-
-* [ < ADD YOUR NAME > ](ADD_PROFILE_URL_HERE)
-
-
-
-<br>
-<br>
-
-<p align="center">
-	Made during 🌙 by DSC KIET
-</p>
+3.After you are assigned, work and create pull requests.
