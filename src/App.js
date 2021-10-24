@@ -1,10 +1,8 @@
 import "./assets/main.css";
-
+import Login from './Login/Login'
 function App() {
   return (
-    <div className="text-gray-500 text-xl font-bold bg-red-100">
-      This is Template
-    </div>
+    <Login />
   );
 }
 
