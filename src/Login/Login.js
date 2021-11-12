@@ -73,7 +73,7 @@ const Login = () => {
                           onChange={handleChange}
                           required
                           placeholder="Password"
-                          className="inner-box -mx-6 bg-blue-light hover:bg-blue-b_light appearance-none rounded-2xl relative block px-8 py-1.5 border border-none placeholder-gray-500 text-gray-light focus:outline-none focus:z-8 text-xs" />
+                            className="inner-box -mx-6 bg-blue-light hover:bg-blue-b_light appearance-none rounded-2xl relative block px-8 py-1.5 border border-none placeholder-gray-500 text-gray-light focus:outline-none focus:z-8 text-xs" />
                     </div>
                 </div>
             </div>
